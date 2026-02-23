@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from sqlmodel import select
 from app.database import SessionDep
 from app.models import *
-from app.auth import AuthDep, IsUserLoggedIn
+from app.auth import *
 from fastapi.security import OAuth2PasswordRequestForm
 from typing import Annotated
 from fastapi import status
