@@ -84,3 +84,4 @@ async def logout(request: Request, response: Response):
     )
     
     return response
+
